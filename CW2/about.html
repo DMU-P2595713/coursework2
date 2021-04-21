@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- this allows the website to be viewed on mobile -->
+    <title>Baldock Studios</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <!-- this links the html to the css so the design can be altered -->
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="image/BaldockStudios.png" alt="logo">
+    </header>
+    <section>
+      <nav>
+        <h2 onclick="myFunction()" class="button">Menu</h2>
+        <div id="dropdown" class="content">
+          <a href="home.html">Welcome</a>
+          <a href="about.html">About</a>
+          <a href="image.html">Image work</a>
+          <a href="video.html">Video work</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+      <h1>About</h1>
+    </section>
+    <section class="about border">
+      <!--classes mades design more interesting as they add colour and border-->
+      <h2>ME</h2>
+      <img id="AboutImage" class="imgThumbnail" src="image/IMG_2583.jpg" alt="about_image"/>
+      <!--class used to set size and position of image and id used to attach a popup to image-->
+      <div id="AboutInfo" class="popup">
+      <!--"popup" class sets the colour,size and position of elements in popup, id was used to create a popup-->
+        <div class="inside">
+        <!--class sets the colour and padding of element-->
+            <div id="AboutCloseBtn" class="closeBtn">X</div>
+            <!--class sets position of element, id was made to close popup when clicked-->
+          <img src="image/IMG_2583.jpg" alt="about_image"/>
+          <p>Hi, my name is Joshua Baldock.
+            For years now I've loved films and photography so always wanted a career in them.
+            I've made several images and videos that I made for fun or for projects including
+            schoolwork and paid work
+          </p>
+        </div>
+      </div>
+    </section>
+    <script src="jvs/menu.js">
+
+    </script>
+    <footer>P2595713</footer>
+  </body>
+</html>
