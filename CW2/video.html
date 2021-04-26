@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- this allows the website to be viewed on mobile -->
+    <title>Baldock Studios</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <!-- this links the html to the css so the design can be altered -->
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="image/BaldockStudios.png" alt="logo">
+    </header>
+      <nav>
+        <h2 onclick="myFunction()" class="button">Menu</h2>
+        <div id="dropdown" class="content">
+          <a href="home.html">Welcome</a>
+          <a href="about.html">About</a>
+          <a href="image.html">Image work</a>
+          <a href="video.html">Video work</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    <h1>Video work</h1>
+      <section class="video border">
+      <!--classes used to change background colour of elements and create a border around them-->
+        <h3>Apprentice Parody Video</h3>
+        <p>I was asked by my former secondary school to create an apprentice styled intro to an event they were hosting</p>
+        <video controls poster="image/thumbnail1.png">
+        <source src="video/dogs.webm" type="video/webm">
+        <source src="video/dogs.mp4" type="video/mp4">
+        <p>Sorry, your browser does not support this format you can download<a href="video/dogs.mp4">here.</a></p>
+        <!-- video controls set so user can control pause/play, multiple video formats used in case other format is not supported and message will display if none of the formats are supported-->
+      </video>
+    </section>
+      <section class="video border">
+        <h3>GCSE Music Video</h3>
+        <p>As part of my GCSE media course we had to create a music video to a song of our choice</p>
+        <video controls poster="image/thumbnail2.png">
+        <source src="video/dogs.webm" type="video/webm">
+        <source src="video/dogs.mp4" type="video/mp4">
+        <p class="display">Sorry, your browser does not support this format you can download<a href="video/dogs.mp4">here.</a></p>
+        <!--class used to change display of element so they won't appear-->
+      </video>
+    </section>
+      <section class="video border">
+        <h3>A Level production</h3>
+        <p>As part of my A level course we had to create a 2 minute opening to a TV show of our making</p>
+        <video controls poster="image/thumbnail3.png">
+        <source src="video/dogs.webm" type="video/webm">
+        <source src="video/dogs.mp4" type="video/mp4">
+        <p class="display">Sorry, your browser does not support this format you can download<a href="video/dogs.mp4">here.</a></p>
+      </video>
+    </section>
+      <section class="video border">
+        <h3>Personal trainer advertisement</h3>
+        <p>A personal trainer hired me to create a short advertisement for their business</p>
+        <video controls poster="image/thumbnail4.png">
+        <source src="video/dogs.webm" type="video/webm">
+        <source src="video/dogs.mp4" type="video/mp4">
+        <p class="display">Sorry, your browser does not support this format you can download<a href="video/dogs.mp4">here.</a></p>
+      </video>
+    </section>
+    <!-- These sections were made to hold all of the videos in their own section where the viwer could easily see it and so they could be easily changed -->
+    </section>
+    <script src="jvs/menu.js">
+
+    </script>
+    <footer>P2595713</footer>
+  </body>
+</html>
